@@ -24,26 +24,28 @@ export default {
         {
           link: {text: 'About', url: '#about'},
           pageTitle: 'About Tic-Tac-Toe',
-          content: 'Tic-tac-toe is a fun game that you can play any time and anywhere as long as you have a piece of paper, a pencil, and an opponent. ' +
-              'Tic-tac-toe is a zero-sum game, which means that if both players are playing their best, then neither player will win. ' +
-              'However, if you learn how to play tic-tac-toe and master some simple strategies, then you\'ll be able to not only play but win the majority of the time.'
+          content: `<p>Tic-tac-toe is a fun game that you can play any time long as you have an opponent.
+              Tic-tac-toe is a zero-sum game, which means that if both players are playing their best, then neither player will win.
+              However, if you learn how to play tic-tac-toe and master some simple strategies, then you\'ll be able to not only play but win the majority of the time.</p>`
         },
         {
           link: {text: 'Game Rules', url: '#rules'},
           pageTitle: 'Tic-Tac-Toe Rules',
-          content: 'Classic Instructions:\n' +
-              'Played with two people.\n' +
-              '1) Decide who goes first. That player can choose to be\n' +
-              'Xs or Os.\n' +
-              '2) The first player chooses which square to place their X or O.\n' +
-              '3) The second player then uses the other symbol and chooses where to place it.\n' +
-              '4) The players continue taking turns until one player gets three in a row or “tic-tac-toe”\n' +
-              'across a row, column or diagonally.'
+          content: `
+                <p>Classic Instructions:</p>
+                <p>Played with two people.</p>
+                <ol>
+                  <li> Decide who goes first. That player can choose to be Xs or Os.</li>
+                  <li> The first player chooses which square to place their X or O.</li>
+                  <li> The second player then uses the other symbol and chooses where to place it.</li>
+                  <li> The players continue taking turns until one player gets three in a row or “tic-tac-toe” across a row, column or diagonally.</li>
+                </ol>
+              `
         },
         {
           link: {text: 'Play', url: '#play'},
           pageTitle: 'Tic-Tac-Toe',
-          content: 'Start the Game'
+          content: `<p>Start the Game</p>`
         }
       ]
     };
